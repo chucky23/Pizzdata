@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DataSourceManagerImpl" format="xml" multifile-model="true">
+    <data-source source="LOCAL" name="Personal DB" uuid="b489af8f-d028-40c1-b564-d080d9dfe0e4">
+      <driver-ref>clickhouse</driver-ref>
+      <synchronize>true</synchronize>
+      <remarks>Личная база данных ClickHouse в инфраструктуре Контур.Метрики</remarks>
+      <jdbc-driver>com.clickhouse.jdbc.ClickHouseDriver</jdbc-driver>
+      <jdbc-url>jdbc:clickhouse://clickhouse2.sys-msk.kontur-extern.ru:8123/extern_im</jdbc-url>
+      <working-dir>$ProjectFileDir$</working-dir>
+    </data-source>
+  </component>
+</project>
