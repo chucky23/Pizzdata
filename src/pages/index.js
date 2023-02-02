@@ -30,8 +30,8 @@ export default function Home() {
   const {siteConfig} = useDocusaurusContext();
   return (
     <Layout
-      title={`Hello from ${siteConfig.title}`}
-      description="Description will go into a meta tag in <head />">
+      title="Pizzdata: вкусно о данных"
+      description="База знаний аналитика. Говорим о данных без снобизма и простыми словами. Документация, рабочие кейсы, скрипты, обзоры инструментов и многое другое.">
       <HomepageHeader />
       <main>
         <HomepageFeatures />
