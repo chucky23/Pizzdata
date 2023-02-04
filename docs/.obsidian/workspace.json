@@ -1,0 +1,151 @@
+{
+  "main": {
+    "id": "17494b0fe6799e49",
+    "type": "split",
+    "children": [
+      {
+        "id": "edc695f1af6e076a",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "a79bb779be440a76",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "tutorial-basics/congratulations.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "11d5e64f6745a5b1",
+    "type": "split",
+    "children": [
+      {
+        "id": "797b970a84b71776",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "33abe1124a1bab14",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "0e87e78efc76360b",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "8643521f741c0b9c",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "1134f06059c2d706",
+    "type": "split",
+    "children": [
+      {
+        "id": "cc0502ed81e19f80",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "8458d2f7d36445d5",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "tutorial-basics/congratulations.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "3b57a1403fb77254",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "tutorial-basics/congratulations.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "7990c22da1059799",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "855218ba11dc8b44",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "tutorial-basics/congratulations.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "graph:Граф": false,
+      "templates:Вставить шаблон": false
+    }
+  },
+  "active": "a79bb779be440a76",
+  "lastOpenFiles": [
+    "2023-02-04.md",
+    "intro.md",
+    "Без названия.canvas"
+  ]
+}

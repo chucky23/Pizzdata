@@ -1,0 +1,152 @@
+{
+  "main": {
+    "id": "193bca84fb3f981f",
+    "type": "split",
+    "children": [
+      {
+        "id": "1ad9aaf5b7e1a001",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "1f1b697716c7d604",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "blog/2019-05-29-long-blog-post.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "d9027ff78b11aa53",
+    "type": "split",
+    "children": [
+      {
+        "id": "947531f0fb557365",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "104bddb285b61f70",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "3188e915f3be60d1",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "0ebb7e8490f0a9d9",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "f75ce65d4016ae75",
+    "type": "split",
+    "children": [
+      {
+        "id": "688d7535308e10dd",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "f1f254111dcb1af7",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "blog/2019-05-29-long-blog-post.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "368c437a8d2aec47",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "blog/2019-05-29-long-blog-post.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "0419c08b0e6edc59",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "e1e72b8264965aab",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "blog/2019-05-29-long-blog-post.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Меню быстрого перехода": false,
+      "graph:Граф": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Сегодняшняя заметка": false,
+      "templates:Вставить шаблон": false,
+      "command-palette:Открыть палитру команд": false
+    }
+  },
+  "active": "1f1b697716c7d604",
+  "lastOpenFiles": [
+    "blog/2019-05-28-first-blog-post.md"
+  ]
+}

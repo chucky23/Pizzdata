@@ -7,7 +7,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'Pizzdata',
-  tagline: 'Вкусно и просто о данных',
+  tagline: 'Вкусно о данных. Без снобизма и мата.',
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
