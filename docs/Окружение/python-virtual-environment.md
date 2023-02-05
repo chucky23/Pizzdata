@@ -1,13 +1,15 @@
 ---
-id: doc-with-tags
-title: Заголовок страницы
+id: venv-settings
+title: Настройка виртуального окружения в Python
 description: Описание страницы
 tags:
-  - Demo тег
-  - Getting started тег
+  - python
+  - программирование
 slug: /venv
 sidebar_position: 1
-sidebar_label: VENV
-image: a thumbnail image to be shown in social media cards
-keywords: [keywords, describing, the main topics]
+sidebar_label: Виртуальное окружение
+image: 
+keywords: [Виртуальное окружение в Python, venv]
 ---
+
+# Виртуальное окружение в Python
