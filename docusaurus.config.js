@@ -64,10 +64,10 @@ const config = {
       // Replace with your project's social card
       image: 'img/docusaurus-social-card.jpg',
       navbar: {
-        title: 'Pizzdata',
+        title: 'Pizz_data',
         logo: {
           alt: 'Pizzdata',
-          src: 'img/logo.svg',
+          src: 'img/pizzdata.svg',
         },
         items: [
           {

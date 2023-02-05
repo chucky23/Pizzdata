@@ -139,10 +139,7 @@
     "hiddenItems": {
       "switcher:Меню быстрого перехода": false,
       "graph:Граф": false,
-      "canvas:Create new canvas": false,
-      "daily-notes:Сегодняшняя заметка": false,
-      "templates:Вставить шаблон": false,
-      "command-palette:Открыть палитру команд": false
+      "templates:Вставить шаблон": false
     }
   },
   "active": "1f1b697716c7d604",
