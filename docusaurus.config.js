@@ -40,6 +40,7 @@ const config = {
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
+          routeBasePath: '/',
           // Remove this to remove the "edit this page" links.
           editUrl:
             'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
@@ -69,15 +70,15 @@ const config = {
           alt: 'Pizzdata',
           src: 'img/pizzdata.svg',
         },
-        items: [
-          {
-            type: 'doc',
-            docId: 'intro',
-            position: 'left',
-            label: 'Туториал',
-          },
-          {to: '/blog', label: 'Кейсы', position: 'left'},
-        ],
+        // items: [
+        //   {
+        //     type: 'doc',
+        //     docId: 'intro',
+        //     position: 'left',
+        //     label: 'Туториал',
+        //   },
+        //   {to: '/blog', label: 'Кейсы', position: 'left'},
+        // ],
       },
       footer: {
         style: 'dark',

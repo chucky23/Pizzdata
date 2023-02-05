@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "blog/2019-05-29-long-blog-post.md",
+                "file": "docs/Окружение/python-virtual-environment.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "blog/2019-05-29-long-blog-post.md",
+                "file": "docs/Окружение/python-virtual-environment.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "blog/2019-05-29-long-blog-post.md",
+                "file": "docs/Окружение/python-virtual-environment.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "blog/2019-05-29-long-blog-post.md"
+                "file": "docs/Окружение/python-virtual-environment.md"
               }
             }
           }
@@ -144,6 +144,7 @@
   },
   "active": "1f1b697716c7d604",
   "lastOpenFiles": [
-    "blog/2019-05-28-first-blog-post.md"
+    "blog/2019-05-28-first-blog-post.md",
+    "blog/2019-05-29-long-blog-post.md"
   ]
 }
