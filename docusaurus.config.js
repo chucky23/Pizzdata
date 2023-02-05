@@ -77,7 +77,7 @@ const config = {
         //title: 'Pizz_data',
         logo: {
           alt: 'Pizzdata',
-          src: 'img/pizzdata.svg',
+          src: 'img/logo.svg',
         },
         // items: [
         //   {
