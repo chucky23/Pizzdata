@@ -8,7 +8,6 @@ tags:
 slug: /venv
 sidebar_position: 1
 sidebar_label: Виртуальное окружение
-image: 
 keywords: [Виртуальное окружение в Python, venv]
 ---
 
