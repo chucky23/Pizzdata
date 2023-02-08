@@ -1,4 +1,7 @@
 {
-  "accentColor": "",
-  "theme": "moonstone"
+  "accentColor": "#ff33df",
+  "theme": "moonstone",
+  "showViewHeader": true,
+  "cssTheme": "",
+  "translucency": false
 }
