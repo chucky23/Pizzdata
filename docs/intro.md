@@ -1,7 +1,7 @@
 ---
 id: intro
-title: Pizzdata база знаний аналитика данных
-description: Описание страницы
+title: База знаний аналитика данных
+description: Полезные инструкции и статьи для аналитика данных. Думай, а не запоминай.
 slug: /
 sidebar_position: 1
 sidebar_label: О сайте
