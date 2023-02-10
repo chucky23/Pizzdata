@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "intro.md",
+                "file": "Окружение/python-virtual-environment.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "intro.md",
+                "file": "Окружение/python-virtual-environment.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "intro.md",
+                "file": "Окружение/python-virtual-environment.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "intro.md"
+                "file": "Окружение/python-virtual-environment.md"
               }
             }
           }
@@ -144,9 +144,10 @@
   },
   "active": "a79bb779be440a76",
   "lastOpenFiles": [
+    "intro.md",
+    "Окружение/python-virtual-environment.md",
     "tutorial-basics/congratulations.md",
     "2023-02-04.md",
-    "intro.md",
     "Без названия.canvas"
   ]
 }
