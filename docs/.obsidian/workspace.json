@@ -18,8 +18,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "ebcb727b08cf7388",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Окружение/python-virtual-environment.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -142,10 +155,12 @@
       "templates:Вставить шаблон": false
     }
   },
-  "active": "a79bb779be440a76",
+  "active": "33abe1124a1bab14",
   "lastOpenFiles": [
-    "intro.md",
+    "Без названия.md",
+    "drafts/draft.md",
     "Окружение/python-virtual-environment.md",
+    "intro.md",
     "tutorial-basics/congratulations.md",
     "2023-02-04.md",
     "Без названия.canvas"
