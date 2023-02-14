@@ -6,7 +6,7 @@ tags:
   - python
   - программирование
 slug: /venv
-sidebar_position: 1
+sidebar_position: 2
 sidebar_label: Виртуальное окружение
 keywords: [Виртуальное окружение в Python, venv]
 draft: false
