@@ -4,35 +4,18 @@
     "type": "split",
     "children": [
       {
-        "id": "edc695f1af6e076a",
+        "id": "c735d8254a04e0b7",
         "type": "tabs",
         "children": [
           {
-            "id": "a79bb779be440a76",
+            "id": "4d2c45be993189d1",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Окружение/python-virtual-environment.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "ebcb727b08cf7388",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Окружение/python-virtual-environment.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -98,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Окружение/python-virtual-environment.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Окружение/python-virtual-environment.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,9 +118,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Окружение/python-virtual-environment.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -155,11 +134,11 @@
       "templates:Вставить шаблон": false
     }
   },
-  "active": "33abe1124a1bab14",
+  "active": "4d2c45be993189d1",
   "lastOpenFiles": [
-    "Без названия.md",
-    "drafts/draft.md",
+    "Окружение/ubuntu-update.md",
     "Окружение/python-virtual-environment.md",
+    "drafts/draft.md",
     "intro.md",
     "tutorial-basics/congratulations.md",
     "2023-02-04.md",
