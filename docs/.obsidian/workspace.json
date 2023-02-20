@@ -11,8 +11,12 @@
             "id": "4d2c45be993189d1",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Окружение/ubuntu-update.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -81,6 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Окружение/ubuntu-update.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Окружение/ubuntu-update.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +124,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Окружение/ubuntu-update.md"
+              }
             }
           }
         ]
@@ -136,8 +144,8 @@
   },
   "active": "4d2c45be993189d1",
   "lastOpenFiles": [
-    "Окружение/ubuntu-update.md",
     "Окружение/python-virtual-environment.md",
+    "Окружение/ubuntu-update.md",
     "drafts/draft.md",
     "intro.md",
     "tutorial-basics/congratulations.md",
