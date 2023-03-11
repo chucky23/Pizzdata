@@ -15,7 +15,12 @@ body {
 .mainpage-button {
   margin-top: 50px;
 }
-
+.mainpage-button .button {
+  margin-right: 20px;
+}
+.mainpage-col {
+  padding-right: 10rem;
+}
 /* You can override the default Infima variables here. */
 :root {
   --ifm-color-primary: #ff33df;

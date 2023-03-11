@@ -10,7 +10,7 @@ function Index() {
     <Layout>
       <div className="container">
         <div className="row mainpage-row">
-          <div className="col col--6">
+          <div className="col col--6 mainpage-col">
             <h1 className="hero__title">Вкусно о данных</h1>
             <p className="hero__subtitle">
               База знаний аналитика. Говорим о данных без снобизма и простыми словами. Документация, рабочие кейсы, скрипты, обзоры инструментов и многое другое.
