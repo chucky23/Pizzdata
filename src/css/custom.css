@@ -6,6 +6,16 @@
 .navbar__logo {
     height: 2.7rem;
 }
+body {
+  background-color: #f8f8f8;
+}
+.mainpage-row {
+  margin: 10% calc(var(--ifm-spacing-horizontal) * -1);
+}
+.mainpage-button {
+  margin-top: 50px;
+}
+
 /* You can override the default Infima variables here. */
 :root {
   --ifm-color-primary: #ff33df;
@@ -28,3 +38,4 @@
   --ifm-color-primary-lightest: #ff8fed;
   --ifm-background-color: #1f1f1f;
 }
+
