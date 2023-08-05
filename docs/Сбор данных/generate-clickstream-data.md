@@ -20,7 +20,7 @@ draft: false
 pip install pandas
 ```
 
-## Код
+## Пишем код
 
 ### Импорт библиотек
 
@@ -29,7 +29,8 @@ import random
 import datetime
 import uuid
 
-import pandas as pd 
+import pandas as pd
+
 ```
 
 ### Создание функций
@@ -67,7 +68,7 @@ def generate_user_events(user_id, session_id, start_datetime, max_events_per_ses
 
 
 # Функция для генерации датафрейма с кликстримом
-def generate_sessions(start_date, users_count, max_sessions_per_user, max_events_per_session):
+def generate_clickstream(start_date, users_count, max_sessions_per_user, max_events_per_session):
     start_datetime = datetime.datetime.strptime(start_date, '%Y-%m-%d %H:%M:%S')
 
     logs = []
@@ -94,4 +95,42 @@ def generate_sessions(start_date, users_count, max_sessions_per_user, max_events
     df = pd.DataFrame(logs)
     
     return df
-``````
+
+```
+
+### Определение конфигурационных данных
+
+```python
+start_date = '2022-03-24 00:00:00'  # Дата с которой начнётся генерация событий
+
+users_count = 100  # Количество пользователей
+max_sessions_per_user = 10  # Максимальное количество сессий на каждого пользователя
+max_events_per_session = 50  # Максимальное количество событий на каждую сессию
+
+# Справочник URL и частоты их встречаемости в выборке относительно друг друга
+url_weight = {
+    '/product': 30,
+    '/category': 10,
+    '/home': 5,
+    '/contact': 2,
+    '/cart': 5,
+    '/order': 1
+}
+
+# Справочник событий и частоты их встречаемости в выборке относительно друг друга
+event_weight = {
+    'page_view': 30, 
+    'click': 15,
+    'add_to_cart': 6,
+    'submit': 2
+}
+
+```
+
+
+### Генерация данных и сохранение их в переменную
+
+```python
+df = generate_clickstream(start_date, users_count, max_sessions_per_user, max_events_per_session)
+
+```
