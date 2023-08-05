@@ -14,8 +14,11 @@ draft: false
 # Создание датафрейма с действиями пользователей сайта
 
 ## Подготовка инфраструктуры
+Для начала создай папку проекта и установи там [виртуальное окружение](/docs/venv). Для работы тебе понадобится только одна внешняя библиотека — Pandas. Установи её в созданном окружении.
 
-
+```shell
+pip install pandas
+```
 
 ## Код
 
@@ -28,6 +31,7 @@ import uuid
 
 import pandas as pd 
 ```
+
 ### Создание функций
 
 ```python
@@ -62,20 +66,32 @@ def generate_user_events(user_id, session_id, start_datetime, max_events_per_ses
     return events
 
 
+# Функция для генерации датафрейма с кликстримом
 def generate_sessions(start_date, users_count, max_sessions_per_user, max_events_per_session):
     start_datetime = datetime.datetime.strptime(start_date, '%Y-%m-%d %H:%M:%S')
 
     logs = []
     for user in range(1, users_count + 1):
         user_id = f'UID-{user}'
-        user_random_start_datetime = datetime.timedelta(days=random.randint(0, 30), hours=random.randint(0, 23), minutes=random.randint(0, 59), seconds=random.randint(1, 59))
+        user_random_start_datetime = datetime.timedelta(days=random.randint(0, 30),
+                                                        hours=random.randint(0, 23),
+                                                        minutes=random.randint(0, 59),
+                                                        seconds=random.randint(1, 59))
         start_datetime = start_datetime + user_random_start_datetime
         for session in range(1, random.randint(1, max_sessions_per_user + 1)):
             session_id = f's-{str(uuid.uuid4())}'
-            session_logs = generate_user_events(user_id, session_id, start_datetime, max_events_per_session)
+            session_logs = generate_user_events(user_id,
+                                                session_id,
+                                                start_datetime,
+                                                max_events_per_session)
             logs.extend(session_logs)
-            session_random_start_datetime = datetime.timedelta(days=random.randint(0, 30), hours=random.randint(0, 23), minutes=random.randint(0, 59), seconds=random.randint(1, 59))
+            session_random_start_datetime = datetime.timedelta(days=random.randint(0, 30), 
+                                                                hours=random.randint(0, 23),
+                                                                minutes=random.randint(0, 59),
+                                                                seconds=random.randint(1, 59))
             start_datetime = start_datetime + session_random_start_datetime
+
     df = pd.DataFrame(logs)
+    
     return df
 ``````
