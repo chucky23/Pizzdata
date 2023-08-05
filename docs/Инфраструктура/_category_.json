@@ -1,11 +1,11 @@
 {
-  "label": "Окружение",
+  "label": "Инфраструктура",
   "position": 1,
   "collapsible": false,
   "link": {
     "type": "generated-index",
     "title": "Окружение для работы аналитика",
-    "description": "Learn about the most important Docusaurus concepts!",
+    "description": "Инструкции о том как настроить инфраструктуру для выполнения аналитических задач",
     "slug": "envieroment",
     "keywords": ['софт для аналитика','программы для аналитика','библиотеки для аналитика']
   }
