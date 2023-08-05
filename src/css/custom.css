@@ -40,6 +40,7 @@ body {
   --ifm-color-primary-light: #ff52e4;
   --ifm-color-primary-lighter: #ff61e6;
   --ifm-color-primary-lightest: #ff8fed;
+  --ifm-footer-background-color: #212121;
 }
 
 /* For readability concerns, you should choose a lighter palette in dark mode. */
@@ -51,6 +52,6 @@ body {
   --ifm-color-primary-light: #ff52e4;
   --ifm-color-primary-lighter: #ff61e6;
   --ifm-color-primary-lightest: #ff8fed;
-  --ifm-background-color: #1f1f1f;
+  --ifm-background-color: #212121;
 }
 
