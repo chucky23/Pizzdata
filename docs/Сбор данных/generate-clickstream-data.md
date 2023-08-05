@@ -30,7 +30,6 @@ import datetime
 import uuid
 
 import pandas as pd
-
 ```
 
 ### Создание функций
@@ -95,7 +94,6 @@ def generate_clickstream(start_date, users_count, max_sessions_per_user, max_eve
     df = pd.DataFrame(logs)
     
     return df
-
 ```
 
 ### Определение конфигурационных данных
@@ -124,7 +122,6 @@ event_weight = {
     'add_to_cart': 6,
     'submit': 2
 }
-
 ```
 
 
@@ -132,14 +129,12 @@ event_weight = {
 
 ```python
 df = generate_clickstream(start_date, users_count, max_sessions_per_user, max_events_per_session)
-
 ```
 
 ## Результат
 
 ```python
 print(df)
-
 ```
 
 | user_id   | session_id                             | event_id                           | timestamp           | url       | event_type   |
