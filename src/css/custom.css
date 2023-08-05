@@ -9,6 +9,10 @@
 body {
   background-color: #f8f8f8;
 }
+code {
+  background-color: #ffffff;
+}
+
 .mainpage-row {
   margin: 10% calc(var(--ifm-spacing-horizontal) * -1);
 }
@@ -33,6 +37,18 @@ body {
 .footer--dark {
   --ifm-footer-background-color: #212121;
 }
+
+/* Заливка активных пунктов */
+.breadcrumbs__item--active .breadcrumbs__link {
+  background: #ff33df0f;
+}
+.breadcrumbs__link:any-link:hover, .breadcrumbs__link:link:hover, .breadcrumbs__link:visited:hover, area.breadcrumbs__link[href]:hover {
+  background: #ff33df0f;
+}
+.menu__link--active:not(.menu__link--sublist) {
+  background: #ff33df0f;
+}
+
 
 /* You can override the default Infima variables here. */
 :root {
