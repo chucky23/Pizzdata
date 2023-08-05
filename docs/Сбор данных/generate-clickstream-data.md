@@ -134,3 +134,28 @@ event_weight = {
 df = generate_clickstream(start_date, users_count, max_sessions_per_user, max_events_per_session)
 
 ```
+
+## Результат
+
+```python
+print(df)
+
+```
+
+| user_id   | session_id                             | event_id                           | timestamp           | url       | event_type   |
+|:----------|:---------------------------------------|:-----------------------------------|:--------------------|:----------|:-------------|
+| UID-1     | s-3bd5e895-413b-4a70-8220-e250e394982a | e-e7ed20572f274e878cb926c53a6602e0 | 2022-04-20 01:18:37 | /product  | page_view    |
+| UID-1     | s-3bd5e895-413b-4a70-8220-e250e394982a | e-8107f70a3fea4619a010e7705eeae392 | 2022-04-20 01:21:24 | /product  | click        |
+| UID-1     | s-3bd5e895-413b-4a70-8220-e250e394982a | e-2d7c7519678f4bcba5350ebd17d01788 | 2022-04-20 01:23:11 | /cart     | page_view    |
+| UID-1     | s-3bd5e895-413b-4a70-8220-e250e394982a | e-5c9a34481ede4fb19553cb3a410a3bd8 | 2022-04-20 01:25:03 | /product  | click        |
+| UID-1     | s-3bd5e895-413b-4a70-8220-e250e394982a | e-2a4a9c8669104bf780a078a081e492cb | 2022-04-20 01:28:02 | /product  | click        |
+| UID-1     | s-3bd5e895-413b-4a70-8220-e250e394982a | e-51a5c9931bb446e28a939a60c9fa427d | 2022-04-20 01:30:16 | /product  | add_to_cart  |
+|    —      |     —                                  |     —                              |     —               |     —     |     —        |
+| UID-100   | s-099aea71-0968-4d4e-a6c2-26e4e4fd6245 | e-1e681d3dbfdb46a1ad6521a284927e7b | 2024-05-09 09:40:38 | /product  | click        |
+| UID-100   | s-099aea71-0968-4d4e-a6c2-26e4e4fd6245 | e-8763d0957df949e5b0ebd717ce496ca1 | 2024-05-09 09:42:13 | /order    | page_view    |
+| UID-100   | s-099aea71-0968-4d4e-a6c2-26e4e4fd6245 | e-321cc38cee7c45e98821894181ed8607 | 2024-05-09 09:44:24 | /product  | add_to_cart  |
+| UID-100   | s-099aea71-0968-4d4e-a6c2-26e4e4fd6245 | e-b48bc02fb54b42cfa6a56dfa4779c436 | 2024-05-09 09:47:17 | /product  | click        |
+| UID-100   | s-099aea71-0968-4d4e-a6c2-26e4e4fd6245 | e-84172f9f3a5c4029b3d3136ae2edb316 | 2024-05-09 09:47:35 | /product  | page_view    |
+| UID-100   | s-ec934299-5daa-42da-aced-71b78b2552b7 | e-e1f1acdd217a4fdb9e680961ce4b55fa | 2024-05-11 01:39:40 | /product  | page_view    |
+| UID-100   | s-ec934299-5daa-42da-aced-71b78b2552b7 | e-adf5a67f58dc4a43bdcb998d019d69c8 | 2024-05-11 01:42:18 | /category | click        |
+| UID-100   | s-ec934299-5daa-42da-aced-71b78b2552b7 | e-ea38c4bff2424da7b4ec9ce46c3c6f71 | 2024-05-11 01:45:33 | /category | page_view    |
