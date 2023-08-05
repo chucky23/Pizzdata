@@ -21,6 +21,10 @@ body {
 .mainpage-col {
   padding-right: 10rem;
 }
+.container {
+  max-width: var(--ifm-container-width);
+}
+
 /* You can override the default Infima variables here. */
 :root {
   --ifm-color-primary: #ff33df;
@@ -30,6 +34,7 @@ body {
   --ifm-color-primary-light: #ff52e4;
   --ifm-color-primary-lighter: #ff61e6;
   --ifm-color-primary-lightest: #ff8fed;
+  --ifm-container-width: 708px;
 }
 
 /* For readability concerns, you should choose a lighter palette in dark mode. */
