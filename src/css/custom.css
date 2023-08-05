@@ -10,7 +10,7 @@ body {
   background-color: #f8f8f8;
 }
 code {
-  background-color: #ffffff;
+  background-color: #ffffff !important;
 }
 
 .mainpage-row {
